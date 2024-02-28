@@ -1,0 +1,76 @@
+///$tab Direct Query
+LIB CONNECT TO 'Common DATA:Machine IQ';
+SECTION DirectQuery;
+
+[iot_equipment]:
+SELECT 
+	"asset_id",
+	name,
+	"data_partition",
+	"servicing_dealer_id",
+	"product_category",
+	"product_model",
+	"product_fault_category",
+	"product_equipment_type",
+	"inventory_condition",
+	"last_sync_time",
+	"inventory_type",
+	"customer_account_id"
+FROM iotv3."iot_equipment";
+
+
+
+[iot_events_latest]:
+SELECT 
+	"event_id",
+	"event_type",
+	"asset_id" AS asset_id_event,
+	"message_source",
+	"machine_state_of_charge",
+	"machine_battery_voltage",
+	"service_clock_hours",
+	"internal_battery_voltage",
+	"engine_speed",
+	"user_id",
+	"engine_status",
+	"key_status",
+	"trailering_status",
+	rssi,
+	"network_type",
+	"roaming_status",
+	"data_connected_status",
+	"data_service_status",
+	"network_service_status",
+	"ingested_ts",
+	"sample_ts",
+	"event_code",
+	carrier,
+	esn,
+	"fuel_level",
+    "cumulative_fuel_consumption",
+	"cumulative_engine_hours",
+	"def_level",
+	"cumulative_idle_hours",
+	"thing_name"
+FROM iotv3."iot_events_latest";
+
+[iot_fault_sessions]:
+SELECT 
+	"asset_id" as asset_id_fault,
+	"fault_code_id",
+	status,
+	severity,
+	description,
+	"customer_name",
+	"customer_troubleshooting",
+	"customer_description",
+	"customer_impact",
+	created,
+    trunc(created) as created_day,
+    date_trunc('hour', created + interval '30 minute') as created_hour,
+	"fault_category"
+FROM iotv3."iot_fault_sessions"
+WHERE status = 'ACTIVE';
+
+Create Relationship Between iot_equipment, iot_events_latest Matching asset_id with asset_id_event;
+Create Relationship Between iot_equipment, iot_fault_sessions Matching asset_id with asset_id_fault;

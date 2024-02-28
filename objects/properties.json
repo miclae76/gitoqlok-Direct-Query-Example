@@ -1,0 +1,14 @@
+{
+  "qTitle": "Direct Query Example",
+  "qThumbnail": {
+    "qUrl": "/api/v1/apps/7ce609f1-07e9-4834-8cf2-c0b126376434/media/files/MIQ_Direct_Query.png"
+  },
+  "qUsage": "ANALYTICS",
+  "encrypted": true,
+  "id": "7ce609f1-07e9-4834-8cf2-c0b126376434",
+  "published": false,
+  "owner": "00uwaekttlMwr43ua1t7",
+  "ownerId": "65829df9374a6c53394a31d0",
+  "description": "",
+  "dynamicColor": "hsla(37,18%,43%,1)"
+}

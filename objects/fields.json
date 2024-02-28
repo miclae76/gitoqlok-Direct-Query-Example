@@ -1,0 +1,405 @@
+[
+  {
+    "qIsHidden": true,
+    "qName": "%Association_iot_equipment_iot_events_latest",
+    "qTags": [
+      "$key",
+      "$hidden"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qName": "%Association_iot_equipment_iot_fault_sessions",
+    "qTags": [
+      "$key",
+      "$hidden"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qName": "asset_id",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_equipment"
+    ]
+  },
+  {
+    "qName": "asset_id_event",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_events_latest"
+    ]
+  },
+  {
+    "qName": "asset_id_fault",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_fault_sessions"
+    ]
+  },
+  {
+    "qName": "carrier",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_events_latest"
+    ]
+  },
+  {
+    "qName": "created",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_fault_sessions"
+    ]
+  },
+  {
+    "qName": "created_day",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_fault_sessions"
+    ]
+  },
+  {
+    "qName": "created_hour",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_fault_sessions"
+    ]
+  },
+  {
+    "qName": "cumulative_engine_hours",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_events_latest"
+    ]
+  },
+  {
+    "qName": "cumulative_fuel_consumption",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_events_latest"
+    ]
+  },
+  {
+    "qName": "cumulative_idle_hours",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_events_latest"
+    ]
+  },
+  {
+    "qName": "customer_account_id",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_equipment"
+    ]
+  },
+  {
+    "qName": "customer_description",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_fault_sessions"
+    ]
+  },
+  {
+    "qName": "customer_impact",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_fault_sessions"
+    ]
+  },
+  {
+    "qName": "customer_name",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_fault_sessions"
+    ]
+  },
+  {
+    "qName": "customer_troubleshooting",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_fault_sessions"
+    ]
+  },
+  {
+    "qName": "data_connected_status",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_events_latest"
+    ]
+  },
+  {
+    "qName": "data_partition",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_equipment"
+    ]
+  },
+  {
+    "qName": "data_service_status",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_events_latest"
+    ]
+  },
+  {
+    "qName": "def_level",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_events_latest"
+    ]
+  },
+  {
+    "qName": "description",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_fault_sessions"
+    ]
+  },
+  {
+    "qName": "engine_speed",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_events_latest"
+    ]
+  },
+  {
+    "qName": "engine_status",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_events_latest"
+    ]
+  },
+  {
+    "qName": "esn",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_events_latest"
+    ]
+  },
+  {
+    "qName": "event_code",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_events_latest"
+    ]
+  },
+  {
+    "qName": "event_id",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_events_latest"
+    ]
+  },
+  {
+    "qName": "event_type",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_events_latest"
+    ]
+  },
+  {
+    "qName": "fault_category",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_fault_sessions"
+    ]
+  },
+  {
+    "qName": "fault_code_id",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_fault_sessions"
+    ]
+  },
+  {
+    "qName": "fuel_level",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_events_latest"
+    ]
+  },
+  {
+    "qName": "ingested_ts",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_events_latest"
+    ]
+  },
+  {
+    "qName": "internal_battery_voltage",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_events_latest"
+    ]
+  },
+  {
+    "qName": "inventory_condition",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_equipment"
+    ]
+  },
+  {
+    "qName": "inventory_type",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_equipment"
+    ]
+  },
+  {
+    "qName": "key_status",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_events_latest"
+    ]
+  },
+  {
+    "qName": "last_sync_time",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_equipment"
+    ]
+  },
+  {
+    "qName": "machine_battery_voltage",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_events_latest"
+    ]
+  },
+  {
+    "qName": "machine_state_of_charge",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_events_latest"
+    ]
+  },
+  {
+    "qName": "message_source",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_events_latest"
+    ]
+  },
+  {
+    "qName": "name",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_equipment"
+    ]
+  },
+  {
+    "qName": "network_service_status",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_events_latest"
+    ]
+  },
+  {
+    "qName": "network_type",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_events_latest"
+    ]
+  },
+  {
+    "qName": "product_category",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_equipment"
+    ]
+  },
+  {
+    "qName": "product_equipment_type",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_equipment"
+    ]
+  },
+  {
+    "qName": "product_fault_category",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_equipment"
+    ]
+  },
+  {
+    "qName": "product_model",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_equipment"
+    ]
+  },
+  {
+    "qName": "roaming_status",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_events_latest"
+    ]
+  },
+  {
+    "qName": "rssi",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_events_latest"
+    ]
+  },
+  {
+    "qName": "sample_ts",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_events_latest"
+    ]
+  },
+  {
+    "qName": "service_clock_hours",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_events_latest"
+    ]
+  },
+  {
+    "qName": "servicing_dealer_id",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_equipment"
+    ]
+  },
+  {
+    "qName": "severity",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_fault_sessions"
+    ]
+  },
+  {
+    "qName": "status",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_fault_sessions"
+    ]
+  },
+  {
+    "qName": "thing_name",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_events_latest"
+    ]
+  },
+  {
+    "qName": "trailering_status",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_events_latest"
+    ]
+  },
+  {
+    "qName": "user_id",
+    "qTags": [],
+    "qSrcTables": [
+      "iot_events_latest"
+    ]
+  }
+]

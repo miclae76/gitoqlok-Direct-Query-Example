@@ -1,0 +1,73 @@
+{
+  "qInfo": {
+    "qId": "WZmHgh",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "severity"
+    ],
+    "qFieldLabels": [
+      "severity"
+    ],
+    "title": "severity",
+    "coloring": {
+      "changeHash": "0.5380661002169282",
+      "hasValueColors": true,
+      "colorMapRef": "WZmHgh"
+    }
+  },
+  "qMetaDef": {
+    "title": "severity",
+    "description": "",
+    "tags": []
+  },
+  "_ColorMapModel": {
+    "qInfo": {
+      "qId": "ColorMapModel_WZmHgh",
+      "qType": "ColorMap"
+    },
+    "qMeta": {},
+    "colorMap": {
+      "colors": [
+        {
+          "value": "CRITICAL",
+          "baseColor": {
+            "color": "#FF3600",
+            "index": -1
+          }
+        },
+        {
+          "value": "INFORMATION",
+          "baseColor": {
+            "color": "#32bcc8",
+            "index": -1
+          }
+        },
+        {
+          "value": "WARNING",
+          "baseColor": {
+            "color": "#ffca00",
+            "index": -1
+          }
+        }
+      ],
+      "nul": {
+        "color": "#b0afae",
+        "index": 13
+      },
+      "oth": {
+        "color": "#b0afae",
+        "index": 13
+      },
+      "pal": null,
+      "single": {
+        "color": "none",
+        "index": 0
+      },
+      "usePal": true,
+      "autoFill": true
+    }
+  }
+}
